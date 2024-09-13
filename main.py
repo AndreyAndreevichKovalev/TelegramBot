@@ -30,7 +30,7 @@ def start(message):
 
     # Приветственное сообщение
     markup = quick_markup({
-        "Начать": {"callback_data": "game_start"},
+        "Переводчик": {"callback_data": "game_start"},
         "Словарь": {"callback_data": "dictionary"}
     }, row_width=2)
     bot.send_message(
